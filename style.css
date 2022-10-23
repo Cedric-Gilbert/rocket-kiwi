@@ -1,0 +1,73 @@
+body, html
+{
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(rocket.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+h1 {
+	font-size: 5rem;
+	color: white;
+}
+
+/* hr {
+    margin: 20px auto;
+    border-width: 3px;
+    max-width: 14px;
+    opacity: 1;  
+    border-color: #572300;
+} */
+
+.buffer {
+	height: 15rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #572300;
+	border-color: #572300;
+}
+
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+/*
+	.imgparent {
+	position: relative;
+	}
+
+	.rocket {
+	  width: 100%;
+	  height: auto;
+	}
+
+	.kiwi {
+	position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+
+	.btn-dark {
+	position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+*/
+
